@@ -1,0 +1,10 @@
+package com.myspace.test;
+
+rule "godine"
+
+when
+Person(godine<22)
+then
+System.out.println("Klijent nema dovoljno godina");
+end
+
